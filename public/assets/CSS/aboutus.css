@@ -1,0 +1,174 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.cont3_m, .cont1_m{
+  display: none;
+}
+
+/*.cont1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(aboutus.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont1 .text {
+  position: absolute;
+  top: 240px;
+  right: 20px;
+  text-align: right;
+}*/
+
+.cont2_1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/about\ _us.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont2_1 .grid-container_1 {
+  position: absolute;
+  left: 35%;
+  transform: translate(-50%,0);
+  bottom: 5%;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 100px 800px;
+  grid-template-rows: 150px 150px 150px;
+  background-size: cover;
+  color: black;
+}
+
+.cont2_1 .grid-item_1 {
+  font-size: 16px;
+}
+
+.gridimg {
+  margin-left: 40px;
+  margin-top:  20px;
+}
+
+.cont3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url(../images/about_us2.png);
+  background-size: 27%;
+  background-position: 85% 30%;
+  background-repeat: no-repeat;
+}
+
+.cont3 .text {
+  margin-left: 15%;
+}
+
+.cont3 h1 {
+  color: black;
+  line-height: 0.2;
+  font-weight: bold;
+}
+
+.cont3 p, li {
+  color: #727373;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 530px) {
+
+  .cont3, .cont1 {
+    display: none;
+  }
+
+  .cont1_m {
+  
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/au_m.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cont1_m .text {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    text-align: right;
+  }
+
+  .cont1_m .text h1 {
+    font-size: 22px;
+  }
+
+  .cont1_m .text h3 {
+    font-size: 14px;
+  }
+
+  .cont2_1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/about\ _us.png);  
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cont2_1 .grid-container_1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 50%;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 60px 200px;
+    grid-template-rows: 150px 150px 150px;
+    background-size: cover;
+    color: white;
+  }
+
+  .cont2_1 .grid-item_1 {
+    font-size: 12px;
+  }
+
+  .cont2_1 .grid-item img {
+    margin-left: 0;
+  }
+
+  .cont3_m {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .cont3_m .text {
+    padding: 16px;
+    position: relative;
+  }
+
+  .cont3_m p, li {
+    color: #727373;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+
+  .cont3_m h3 {
+    color: black;
+    
+  }
+
+}

@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.cont_ {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: url(../images/busines1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+}
+
+.cont_ .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 50%;
+  right: 5%;
+  background: url(../images/rect5.png);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.cont_ .text h1 {
+  color:  black;
+ 
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.cont_ img {
+  width: 100px;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 801px) {
+
+  .cont_ {
+    position: relative;
+    width: 100%;
+    height: 1250px;
+    background: url(../images/career.jpg);
+    background-position:  bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+  }
+
+  .cont_ .text {
+    position: absolute;
+    top: 80px;
+    transform: translate(0,0%);
+    width: 100%;
+    right: 0%;
+    background: url(../images/rect5.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .cont_ .text h1 {
+    color:  black;
+    font-size: 24px;
+    font-weight: lighter;
+  }
+
+  .cont_ img {
+    width: 100px;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+  }
+}

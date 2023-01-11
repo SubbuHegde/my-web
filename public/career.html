@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="ie=edge" http-equiv="X-UA-Compatible">
+		<title>Niotact</title>
+		<link rel="icon" href="/assets/images/logo.png" style="height: 20px;width: 0px;"type="image/png">
+		<link href="/assets/CSS/header.css" rel="stylesheet">
+		<link href="/assets/CSS/career.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+		</script>
+		<script>
+			$(window).scroll(function() {
+
+		    //After scrolling 100px from the top...
+		    if ( $(window).scrollTop() >= 100 ) {
+		        $('.nav').css('background-color', 'white');
+
+		    //Otherwise remove inline styles and thereby revert to original stying
+		    } else {
+		        $('.nav').css('background-color', 'transparent');
+
+		    }
+			});
+		</script>
+		<script>
+
+			$(function () {
+				$('#header').load('header.html');
+				$('#footer').load('footer.html');
+			});
+		</script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+	</head>
+    <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+	
+</html>

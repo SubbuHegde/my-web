@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.cont_1 #mobile {
+    display: none;
+  }
+
+.cont_1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/d4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cont_1 .text {
+  position: absolute;
+  bottom: 60px;
+  width: 80%;
+  left: 10%;
+  line-height: 2.0;
+  background: url(../images/rect4.png);
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.cont_1 img {
+  width: 70%;
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+}
+/*
+@media only screen and (max-width: 801px) {
+
+  .cont_1 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .cont_1 #desktop {
+    display: none;
+  }
+
+  .cont_1 .text {
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    left: 5%;
+  }
+
+  .cont_1 #mobile {
+    display: block;
+    width: 70%;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+  }
+
+}
+*/

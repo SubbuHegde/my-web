@@ -1,0 +1,190 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.cont {
+  position: relative;
+  height: 800px;
+  width: 100%;
+   background-color: #ecebf0;
+  background: url(../images/d2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+}
+
+.cont h1 {
+  position: absolute;
+  font-size: 28px;
+  right: 10%;
+  top: 60px;
+  color: black;
+  font-weight: lighter;
+}
+
+.input {
+  font-size:x-large;
+  font-family: FontAwesome;
+}
+        
+.input-fields1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+}
+
+.input-fields1, .msg {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+#msgtxt {
+  height:200px; 
+  width: 450px;
+  border: 2px solid #12575d; 
+  margin-left: 5px; 
+  margin-top: 0px;
+}
+
+
+.input-fields1 .input, .msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border:  0px;
+  border-bottom: 2px solid #12575d;;
+  padding: 10px;
+  color: #12575d;
+  width: 450px;
+}
+
+.wrapper3 {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: transparent;
+  border-radius: 0.313em;
+}
+
+.Form1 {
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #12575d;;
+  top: 50%;
+  transform:  translate(0, -50%);
+  right: 10%;
+  width: 650px;
+  height: 520px;
+  background: transparent;  
+}
+
+
+
+.formimg {
+  position: absolute; 
+  left: 30px; 
+}
+
+
+@media only screen and (max-width: 821px) {
+
+  .cont {
+    position: relative;
+    height: 900px;
+    width: 100%;
+    background-color: #ecebf0;
+    background: url(../images/d2.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+     background-color: #ecebf0;
+    margin-top: 0px;
+  }
+
+  .cont h1 {
+    position: absolute;
+    font-size: 18px;
+    width: 80%;
+    right: 50%;
+    transform: translate(50%,0);
+    top: 80px;
+    color: black;
+    font-weight: lighter;
+  }
+
+  .input {
+    font-size:x-large;
+    font-family: FontAwesome;
+  }
+          
+  .input-fields1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0%;
+  }
+
+  .input-fields1, .msg {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #msgtxt {
+    height:200px; 
+    width: 200px;
+    border: 2px solid #12575d; 
+    margin-left: 5px; 
+    margin-top: 0px;
+  }
+
+
+  .input-fields1 .input, .msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border:  0px;
+    border-bottom: 2px solid #12575d;;
+    padding: 10px;
+    color: #12575d;
+    width: 200px;
+  }
+
+  .wrapper3 {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: transparent;
+    border-radius: 0.313em;
+  }
+
+  .Form1 {
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #12575d;
+    top: 100px;
+    transform:  translate(0, 0);
+    left: 0;
+    width: 95%;
+    height: 520px;
+    background: transparent;  
+  }
+
+
+  .formimg {
+    position: absolute; 
+    left: 15px; 
+  }
+
+}

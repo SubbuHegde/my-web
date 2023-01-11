@@ -1,0 +1,208 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #dee8e9;
+}
+
+.footer #logo_m {
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+  background: transparent;
+}
+
+.footer .terms {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	bottom: 0;
+	color: #727373;
+	line-height: 0.2;
+	font-size: 20px;
+}
+
+.footer .terms h5 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.footer .contact {
+	width: 130px;
+	position: absolute;
+	right: 2%;
+	bottom: 0;
+	color: #727373;
+	line-height: 0.2;
+	font-size: 10px;
+	
+}
+
+.contact .grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 30px;
+  grid-template-rows: 40px 40px;
+}
+
+.contact .grid-item {
+	font-size: 15px;
+	text-align: right;
+  line-height: 0.2;
+  color: #727373;
+  font-weight: lighter;
+}
+
+.contact .grid-item img {
+	margin-top: 15px;
+}
+
+.contact .grid-item h5 {
+	font-weight: lighter;
+}
+
+@media only screen and (max-width: 821px) {
+
+	.footer {
+	  position: relative;
+	  width: 100%;
+	  height: 300px;
+	  background-color: #12575d;
+	}
+
+	.footer .flinks {
+	  position: absolute;
+	  top: 5%;
+	  width: 100%;
+	  height: auto;
+	}
+
+	.footer .flinks a {
+	  width: 33.33%;
+	  float: left;
+	  color: black;
+	  font-size: 12px;
+	  text-align: center;
+	}
+
+	.footer .flinks .two {
+		width: 25%;
+		margin-top: 20px;
+	}
+
+	.footer #logo_m {
+	  position: absolute;
+	  left: 50%;
+	  transform: translate(-50%,0);
+	  bottom: 70px;
+	  background: transparent;
+	}
+
+	.footer .terms {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+		bottom: 0;
+		color: black;
+		line-height: 0.2;
+		font-size: 10px;
+	}
+
+	.footer .terms h5 {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.footer .contact {
+		position: absolute;
+		right: 50%;
+		transform: translate(50%,0);
+		bottom: 140px;
+		color: black;
+		line-height: 0.2;
+		font-size: 10px;
+	}
+
+	.contact .grid-item {
+		font-size: 14px;
+		text-align: right;
+	  line-height: 0.2;
+	  color: black;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width:540px){
+	.footer {
+		position: relative;
+		width: 100%;
+		height: 12rem;
+		background-color: #dee8e9;
+	  }
+	  .footer .flinks {
+		position: absolute;
+		top: 5%;
+		width: 100%;
+		height: auto;
+	  }
+  
+	  .footer .flinks a {
+		width: 33.33%;
+		float: left;
+		color: black;
+		font-size: 12px;
+		text-align: center;
+	  }
+  
+	  .footer .flinks .two {
+		  width: 25%;
+		  margin-top: 20px;
+	  }
+  
+	  .footer #logo_m {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+		bottom: .5rem;
+		background: transparent;
+	  }
+  
+	  .footer .terms {
+		  position: relative;
+		  left: 50%;
+		  transform: translate(-50%,0);
+		  top: 6.5rem;
+		  color: black;
+		  line-height: 0.2;
+		  font-size: .2rem;
+	  }
+  
+	  .footer .terms h5 {
+		  font-size: 12px;
+		  text-align: center;
+	  }
+  
+	  .footer .contact {
+		  position: absolute;
+		  right: 50%;
+		  transform: translate(50%,0);
+		  bottom: 100px;
+		  color: black;
+		  line-height: 0.2;
+		  font-size: 10px;
+	  }
+  
+	  .contact .grid-item {
+		  font-size: 14px;
+		  text-align: right;
+		line-height: 0.2;
+		color: black;
+	  }
+}

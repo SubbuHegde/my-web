@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="ie=edge" http-equiv="X-UA-Compatible">
+		<title>Niotact</title>
+		<link rel="icon" href="/assets/images/logo.png" style="height: 20px;width: 0px;"type="image/png">
+		<link href="./assets/CSS/header.css" rel="stylesheet">
+		<link href="./assets/CSS/casestudies.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+		</script>
+		<script>
+			$(window).scroll(function() {
+
+		    //After scrolling 100px from the top...
+		    if ( $(window).scrollTop() >= 100 ) {
+		        $('.nav').css('background-color', 'white');
+
+		    //Otherwise remove inline styles and thereby revert to original stying
+		    } else {
+		        $('.nav').css('background-color', 'transparent');
+		    }
+			});
+		</script>
+		<script>
+
+			$(function () {
+				$('#header').load('header.html');
+				$('#footer').load('footer.html');
+			});
+		</script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+	</head>
+  <body>
+	<script>
+		// Menu icon
+		$(document).ready(function () {
+				// Show hide popover
+				$(".dropdowN").click(function () {
+					$(this).find("#dropdown-contenT").slideToggle("fast");
+				});
+			});
+			$(document).on("click", function (event) {
+				var $trigger = $(".dropdowN");
+				if ($trigger !== event.target && !$trigger.has(event.target).length) {
+					$("#dropdown-contenT").slideUp("fast");
+				}
+			});
+	</script>
+	<script>
+		$(window).on("load", function () {
+			$(".loader-wrapper").fadeOut("slow");
+		});
+	</script>
+	<div class="wrapper"></div>
+
+	<script>
+		$(window).scroll(function () {
+			var height = $(window).scrollTop();
+			if (height > 100) {
+				$('#back2Top').fadeIn();
+			} else {
+				$('#back2Top').fadeOut();
+			}
+		});
+		$(document).ready(function () {
+			$("#back2Top").click(function (event) {
+				event.preventDefault();
+				$("html, body").animate({ scrollTop: 0 }, "slow");
+				return false;
+			});
+
+		});
+	</script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  
+  </body>
+</html>
